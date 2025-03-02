@@ -1,0 +1,4 @@
+We have applied the following three key assumptions for estimating optical flow：
+1.Brightness constancy: projection of the same point looks the same in every frame
+2. Small motion: points do not move very far
+3. Spatial coherence: points move like their neighbors
