@@ -1,9 +1,10 @@
-# 大作业1：SFT
+# part 1：Qwen 模型指令微调SFT
 ## 微调和评估
-由于在原notebook文件中修改，所以直接运行project1/finetune-eval.ipynb即可
-
+- 直接运行project1/finetune-eval.ipynb即可
+- 本次实验在数据集Alpaca Cleaned指令微调
 
 - 微调后模型文件（basic，微调1）地址：https://jbox.sjtu.edu.cn/l/812DLF
+![image](https://github.com/user-attachments/assets/71a1aa10-92c4-4854-813f-43328f956a5b)
 
 ## 其他脚本
 project1/scripts目录下放置所有的完成报告和探究所需要的脚本文件，为方便运行，也同样设置为notebook文件
@@ -13,11 +14,16 @@ project1/scripts目录下放置所有的完成报告和探究所需要的脚本�
 
 ----
 
-# 大作业2：聊天机器人
-本次作业我们完成了所有3个bonus，主体框架采用lora微调。
-文件目录finetune中包含所有的微调文件；scripts目录下包含所有的对话实现文件。
+# part 2：聊天机器人
+- 主体框架采用lora微调。
+- 文件目录finetune中包含所有的微调文件；scripts目录下包含所有的对话实现文件。
 
 主体对话文件为scripts/conmmunicate.ipynb，将后面所示模型下载并放入路径即可。
+
+
+## demo实例
+![image](https://github.com/user-attachments/assets/f0ed03ee-8823-463c-b89a-18360eb0abfe)
+
 
 ## lora微调
 - 3B模型微调代码地址如下:https://jbox.sjtu.edu.cn/l/N1iCFD
